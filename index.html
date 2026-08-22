@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Forest RPG</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loadingScreen">
+
+        <h1>🌲 Forest RPG 🌲</h1>
+
+        <p>Loading...</p>
+
+    </div>
+
+
+    <!-- Character Creation -->
+    <div id="startScreen" class="screen hidden">
+
+        <h1>Forest RPG</h1>
+
+        <h2>Create Your Character</h2>
+
+        <input
+            type="text"
+            id="playerName"
+            placeholder="Enter Your Name"
+            maxlength="20"
+        >
+
+        <br><br>
+
+        <button id="startGameButton">
+            Start Game
+        </button>
+
+    </div>
+
+
+    <!-- Home Screen -->
+    <div id="homeScreen" class="screen hidden">
+
+        <header>
+
+            <h2>
+                🌲 Forest RPG
+            </h2>
+
+            <div>
+
+                <span>
+                    👤 <span id="displayName">Player</span>
+                </span>
+
+                &nbsp;&nbsp;
+
+                <span>
+                    ⭐ Level <span id="playerLevel">1</span>
+                </span>
+
+                &nbsp;&nbsp;
+
+                <span>
+                    💰 <span id="playerGold">0</span>
+                </span>
+
+            </div>
+
+        </header>
+
+
+        <main>
+
+            <div id="playerCharacter">
+
+                🛡️
+
+                <h2 id="welcomeMessage">
+                    Welcome!
+                </h2>
+
+            </div>
+
+
+            <div id="campButtons">
+
+                <button id="battleButton">
+                    ⚔️ Battle Arena
+                </button>
+
+                <button id="blacksmithButton">
+                    ⚒️ Blacksmith
+                </button>
+
+                <button id="inventoryButton">
+                    🎒 Inventory
+                </button>
+
+                <button id="characterButton">
+                    📊 Character
+                </button>
+
+                <button id="servantsButton">
+                    👥 Servants
+                </button>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <script src="game.js"></script>
+
+</body>
+
+</html>
