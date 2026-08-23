@@ -101,7 +101,26 @@ button:hover {
 /* ================================
    Home Screen
    ================================ */
+#homeScreen {
+    min-height: 100vh;
 
+    background:
+        linear-gradient(
+            rgba(10, 35, 18, 0.75),
+            rgba(20, 60, 28, 0.9)
+        ),
+        radial-gradient(
+            circle at center,
+            #3f7045 0%,
+            #1d4627 45%,
+            #0b2412 100%
+        );
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
 #homeScreen header {
     padding: 15px;
 
