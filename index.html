@@ -45,78 +45,71 @@
     </div>
 
 
-    <!-- Home Screen -->
-    <div id="homeScreen" class="screen hidden">
+   <!-- Home Screen -->
+<div id="homeScreen" class="screen hidden">
 
-        <header>
+    <!-- Player HUD -->
+    <div id="playerHUD">
 
-            <h2>
-                🌲 Forest RPG
-            </h2>
+        <div id="playerInfo">
+
+            <div id="displayName">
+                Player
+            </div>
 
             <div>
-
-                <span>
-                    👤 <span id="displayName">Player</span>
-                </span>
-
-                &nbsp;&nbsp;
-
-                <span>
-                    ⭐ Level <span id="playerLevel">1</span>
-                </span>
-
-                &nbsp;&nbsp;
-
-                <span>
-                    💰 <span id="playerGold">0</span>
-                </span>
-
+                ⭐ Level <span id="playerLevel">1</span>
             </div>
 
-        </header>
-
-
-        <main>
-
-            <div id="playerCharacter">
-
-                🛡️
-
-                <h2 id="welcomeMessage">
-                    Welcome!
-                </h2>
-
+            <div>
+                ⭐ XP <span id="playerXP">0</span>
             </div>
 
-
-            <div id="campButtons">
-
-                <button id="battleButton">
-                    ⚔️ Battle Arena
-                </button>
-
-                <button id="blacksmithButton">
-                    ⚒️ Blacksmith
-                </button>
-
-                <button id="inventoryButton">
-                    🎒 Inventory
-                </button>
-
-                <button id="characterButton">
-                    📊 Character
-                </button>
-
-                <button id="servantsButton">
-                    👥 Servants
-                </button>
-
+            <div>
+                💰 Gold <span id="playerGold">100</span>
             </div>
 
-        </main>
+            <div>
+                ❤️ <span id="playerHealth">100</span> HP
+            </div>
+
+        </div>
 
     </div>
+
+
+    <!-- Welcome Message -->
+    <div id="welcomeMessage">
+        Welcome!
+    </div>
+
+
+    <!-- Camp Menu -->
+    <div id="campButtons">
+
+        <button id="battleButton">
+            ⚔️ Battle Arena
+        </button>
+
+        <button id="blacksmithButton">
+            ⚒️ Blacksmith
+        </button>
+
+        <button id="inventoryButton">
+            🎒 Inventory
+        </button>
+
+        <button id="characterButton">
+            📊 Character
+        </button>
+
+        <button id="servantsButton">
+            👥 Servants
+        </button>
+
+    </div>
+
+</div>
 
 
     <!-- JavaScript -->
