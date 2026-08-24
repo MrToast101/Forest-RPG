@@ -107,7 +107,7 @@ button:hover {
 
     background-image: url("./forest-background.png");
 
-    background-size: contain;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #142d19;
