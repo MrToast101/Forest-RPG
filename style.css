@@ -102,7 +102,7 @@ button:hover {
    Home Screen
    ================================ */
 #homeScreen {
-    height: calc(100vh - 180px);
+    height: 100vh;
     min-height: 0;
 
     background-image: url("./forest-background.png");
@@ -110,7 +110,6 @@ button:hover {
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #142d19;
 
     color: white;
 }
