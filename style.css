@@ -26,9 +26,9 @@ body {
 
 .screen {
     min-height: 100vh;
-    padding: 30px;
+    box-sizing: border-box;
+    padding: 0;
 }
-
 .hidden {
     display: none !important;
 }
