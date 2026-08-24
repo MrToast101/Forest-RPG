@@ -104,7 +104,7 @@ button:hover {
 #homeScreen {
     min-height: 100vh;
 
-    background-image: url("https://raw.githubusercontent.com/MrToast101/Forest-RPG/main/forest-background.png");
+    background-image: url("./forest-background.png");
 
     background-size: cover;
     background-position: center;
