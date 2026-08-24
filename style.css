@@ -106,10 +106,11 @@ button:hover {
 
     background-image: url("./forest-background.png");
 
-    background-size: 100% 100%;
+    background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
-
+    background-color: #142d19;
+   
     color: white;
 }
 #homeScreen header {
