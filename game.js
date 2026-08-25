@@ -60,10 +60,10 @@ function startGame() {
         .textContent = playerName;
 
 
-    document
-        .getElementById("welcomeMessage")
-        .textContent =
-        "Welcome to Forest RPG, " + playerName + "!";
+   document
+    .getElementById("welcomeMessage")
+    .textContent =
+    "Welcome, " + playerName;
 
 
     // Hide character creation
